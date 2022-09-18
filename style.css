@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgba(53,58,64,255);
+    padding: 0 3em;
+}
+
+.cont>li>a{
+    color: gray;
+    font-size: small;
+}
+
+.nav>li:last-child a{
+    color: rgb(41, 167, 68);
+}
+
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+
+.botontickets{
+    background-color: rgb(41, 167, 68) !important;
+    color:white !important;
+}
+
+.banner{
+    background: url(./img/ba1.jpg) no-repeat center rgba(0, 0, 0, 0.5); 
+    background-blend-mode:color;
+    background-size: 100% 100%;
+    height: 75vh;
+    padding: 7%;
+}
+
+.card-text{
+    font-size: x-small;
+}
+
+.subA{
+    background-color: rgba(254,193,7,255);
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.subB{
+    background-color: rgba(23,162,183,255);
+    font-size: small;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.subC{
+    background-color:rgb(108, 117, 124);
+    font-size: small;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.subD{
+    background-color: rgb(221, 53, 68);
+    font-size: small;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.backg{
+    background-color: rgb(53, 58, 64);
+}
+
+.letraxs{
+    font-size: x-small;
+}
+
+.btnenviar{
+    background-color: rgb(150, 201, 62) !important;
+}
+
+footer ul{
+    background: linear-gradient(0deg, rgba(53,58,64,1) 0%, rgba(31,82,113,1) 100%);
+}
+
+
