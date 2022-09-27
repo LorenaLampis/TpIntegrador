@@ -44,7 +44,7 @@
     color: black;
     font-weight: 500;
     border-radius: 3px;
-    padding: 0.2rem;
+    padding: 0.2rem  0.3rem;
 }
 
 .subB{
@@ -53,7 +53,7 @@
     color: blanchedalmond;
     font-weight: 500;
     border-radius: 3px;
-    padding: 0.2rem;
+    padding: 0.2rem  0.3rem;
 }
 
 .subC{
@@ -62,7 +62,7 @@
     color: blanchedalmond;
     font-weight: 500;
     border-radius: 3px;
-    padding: 0.2rem;
+    padding: 0.2rem 0.3rem;
 }
 
 .subD{
@@ -71,8 +71,13 @@
     color: blanchedalmond;
     font-weight: 500;
     border-radius: 3px;
-    padding: 0.2rem;
+    padding: 0.2rem  0.4rem;
 }
+
+.letterspacing{
+    letter-spacing:0.8px;
+}
+
 
 .backg{
     background-color: rgb(53, 58, 64);
@@ -83,7 +88,12 @@
 }
 
 .btnenviar{
+    color: white !important;
     background-color: rgb(150, 201, 62) !important;
+}
+
+.btnenviar:hover{
+    background-color: rgb(29, 114, 40) !important;
 }
 
 footer ul{
