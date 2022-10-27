@@ -69,7 +69,7 @@ function success(){
 }
 
 function cancel(){
-    window.location.href= 'Comprar tickets.html'
+    window.location.href= './Comprar tickets.html'
 }
 
 
@@ -82,9 +82,9 @@ function resume(e){
     if (total){
         Swal.fire({
         position: 'top',
-        title: `El valor final de las entradas es $: ${total}`,
+        title: `El valor final de las entradas es: $${total}`,
         showCancelButton: true,
-        confirmButtonText: 'Ok',
+        confirmButtonText: 'Aceptar',
         denyButtonText: `Don't save`,
         }).then((result) => {
             if (result.isConfirmed) {
